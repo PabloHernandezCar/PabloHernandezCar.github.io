@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Crear tikect</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+   <header>
+    <img id="imgdos" src="imagenes/logoBlanco.png"> 
+       <h1>Crear ticket</h1>
+   </header>
+   
+   <div class ="separador1"></div>
+   
+   <nav class="menu">
+       <a href="homeDos.html">Home</a>
+       <a href="home.html">Cerrar sesión</a>
+       <a href="service_desk.html">Service Desk</a>
+       <a href="crear_ticket.html">Crear ticket</a>
+       <!--<a href="inicio.html">Inicio de sesión usuario</a>-->
+       <a href="index.html">Registro</a>
+
+   </nav>
+   
+   <div class ="separador1"></div>
+   
+   <div class="mainCrearT">
+    
+    <div class ="separador1"></div>
+    <div class ="separador1"></div>
+
+    <table>
+      <tr>
+      <th bgcolor="#0779DB">Crear nueva solicitud</th>
+      <th bgcolor="#0779DB"></th>
+      <th bgcolor="#0779DB"></th>
+      <th bgcolor="#0779DB"></th>
+      </tr>
+
+      <tr>
+        <th>Solicitante</th>
+        <th>Usuario</th>
+        <th></th>
+        <th></th>
+      </tr>
+
+      <tr>
+        <td><input type="text" name="username" id="crearT" placeholder="Nombre campus" /></td>
+        <td><input  type="text" name="username" id="crearT" placeholder="Nomina de empleado" /></td>
+      </tr>
+
+      <tr>
+        <th>Reportado por</th>
+        <th>Gravedad</th>
+        <th>Urgencia</th>
+        <th>Impacto</th>
+      </tr>
+
+      <tr>
+        <td><input  type="text" name="username" id="crearT" placeholder="Nombre empleado" /></td>
+        <td>
+          <select name="select">
+          <option value="value1" selected>Value 1</option>
+          <option value="value2">Value 2</option>
+          <option value="value3">Value 3</option>
+          </select>
+        </td>
+        <td>
+          <select name="select">
+          <option value="leve" selected>Leve</option>
+          <option value="moderado">Moderado</option>
+          <option value="urgente">Urgente</option>
+          </select>
+        </td>
+        <td>
+          <select name="select">
+          <option value="bajo" selected>Bajo</option>
+          <option value="medio">Medio</option>
+          <option value="alto">Alto</option>
+          </select>
+        </td>
+      </tr>
+      
+      <tr>
+        <th>Descripción del problema</th>
+        <th>Fecha</th>
+        <th>Hora</th>
+        <th></th>
+      </tr>
+
+      <tr>
+        <td><input class="input" type="text" name="username" id="crearT" placeholder="Ingrese la descripción del problema" /></td>
+        <td><input type="date" name="fecha_de_creacion_ticket"></td>
+        <td><input type="datetime" name="hora" placeholder="00:00"></td>
+        <td></td>
+      </tr>
+
+    </table>
+     
+     <div class ="separador1"></div>
+     <div class ="separador1"></div>
+     <div class ="separador1"></div>
+      <!-- botón para crear ticket -->
+      <button  class="boton" align="center" type="submit" id="submit">Crear ticket</button>
+
+   </div>
+   
+   <div class ="separador1"></div>
+   
+   <footer>
+        <p>ITESM. CSC. Eugenio Garza Sada 2501. Col. Tecnológico Moterrey, N.L. México</p>
+    </footer>
+    
+</body>
+</html>

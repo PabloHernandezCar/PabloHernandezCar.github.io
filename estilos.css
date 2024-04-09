@@ -1,0 +1,233 @@
+header{
+    background-color: #0657A7;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #0133A0;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 15px gray;
+    font-family: sans-serif;
+}
+
+footer {
+    background-color: #0657A7;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #0133A0;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 15px gray;
+    font-family: sans-serif;
+}
+
+img.formato{
+  width: 100px;
+  height: 150px;
+  box-shadow: 0 0 15px gray;
+  padding: 15px;
+  margin-left: 0px;
+}
+
+img.principal {
+  display: block;
+  text-align: center;
+  margin: auto;
+  box-shadow: 0 0 15px gray;
+  height: 300px;
+  padding: 20px;
+  margin: 30px 30px 60px 60px;
+}
+
+#crearT {
+    width: 90%; 
+    padding: 5px; 
+    background-color: #f1f1f1; 
+    color: #333; 
+    border: 1px solid #ccc; 
+}
+
+#imgdos {
+  display: block;
+  float:left;
+  height: 50px;
+  width: 200px;
+  padding: 45px;
+  margin-left: 5px;
+  margin-right: -250px;
+}
+
+.boton{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body{
+    text-align: justify;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+p {
+  font-family: oblique;
+  font-size: 20px;
+  margin: 30px 30px 30px 30px;
+}
+
+.separador1{
+    height: 10px;
+    clear: both;
+}
+
+/*Formato menú de opciones*/
+.menu a{
+    box-sizing: border-box;
+    margin: 0px;
+    background-color: #0657A7;
+    color: white;
+    text-decoration: none;
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 0px;
+    border-style: solid;
+    border-color: #0133A0;
+    box-shadow: 0 0 15px gray;
+}
+
+/*Para que cambie de color al pasar el cursor*/
+.menu a:hover{
+    background-color: white;
+    color: #bc9e60;
+}
+
+.nada a:hover{
+  background-color: #0657A7;
+  color: #0657A7;
+}
+.nada a{
+  background-color: #0657A7;
+  color: #0657A7;
+}
+
+.maininicio{
+    height: 100vh;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #0133A0;
+    box-shadow: 0 0 20px gray;
+}
+
+
+.mainHome{
+    height: 100vh;
+    text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #0133A0;
+    box-shadow: 0 0 20px gray;
+}
+
+.contenedor{
+  display: inline;
+}
+
+.mainServiceDesk{
+    width: 35vh;
+    height: 100vh;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #0133A0;
+    box-shadow: 0 0 20px gray;
+    float: left;
+    text-align: justify;
+    background-color: #001723;
+}
+ .mainServiceDeskR{
+    width: 165vh;
+    height: 100vh;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #0133A0;
+    box-shadow: 0 0 20px gray;
+    float: right;
+    /*
+    height: 50vh;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #0133A0;
+    box-shadow: 0 0 20px gray;
+    float: left;*/
+}
+
+.mainMisTickets{
+    height: 100vh;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #0133A0;
+    box-shadow: 0 0 20px gray;
+}
+
+.mainEquipoTrabajo{
+    height: 100vh;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #63523e;
+    box-shadow: 0 0 20px gray;
+}
+
+.mainCrearT{
+    height: 100vh;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #0133A0;
+    box-shadow: 0 0 20px gray;
+}
+
+.mainRegistro{
+  height: 100vh;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #0133A0;
+  box-shadow: 0 0 20px gray;
+}
+
+/*Estilos del encabezado h1 de index.php*/
+.h1{
+    text-align: center;
+    padding: 5px;
+}
+
+/*Estilos tabla*/
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+} 
+/*
+th.tabla, td.tabla{
+   text-align: center;
+   border-spacing: 10px;
+}
+
+td.tabla{
+  width: 130px;
+}*/
+
+
+

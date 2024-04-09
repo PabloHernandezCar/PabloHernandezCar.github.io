@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="estilosFormulario.css" />
+   <link rel="stylesheet" href="estilos.css" /> 
+    <title>Registro nuevo usuario</title>
+  </head>
+ 
+  <body>
+
+    <header>
+      <img id="imgdos" src="imagenes/logoBlanco.png"> 
+       <h1>Registro</h1>
+   </header>
+
+  <div class ="separador1"></div>
+
+   <nav class="menu">
+       <a href="home.html">Home</a>
+       <a href="inicio.html">Inicio sesión</a>
+    <nav class="nada">
+       <a  href="">ningun lugar</a>
+       <a  href="">ningun lugar</a>
+    </nav>
+       <a href="index.html">Registro</a>
+
+   </nav>
+
+   <div class ="separador1"></div>
+
+     <div class="mainRegistro">
+     <p align="center" >Registro de nuevo usuario</p>
+      <!-- Inicio formulario -->
+      <form class="form">
+  
+        <div>
+          <!-- ingresar nomina -->
+          <label for="username">Nomina de usuario</label>
+          <!--<i class="fas fa-user"></i> -->
+          <input  type="text" name="username" id="nominaUsuario" placeholder="Nomina de usuario" />
+        </div> <!-- fin contenedor para registrar nombre de usuario -->
+       
+        <div>
+          <!-- ingresar nombre -->
+          <label for="username">Nombres</label>
+          <!--<i class="fas fa-user"></i> -->
+          <input  type="text" name="username" id="nombreUsuario" placeholder="Nombres" />
+        </div> <!-- fin contenedor para registrar nombre de usuario -->
+
+        <div>
+          <!-- ingresar apellidos -->
+          <label for="username">Apellidos</label>
+          <!--<i class="fas fa-user"></i> -->
+          <input  type="text" name="username" id="apellidoUsuario" placeholder="Apellidos" />
+        </div> <!-- fin contenedor para registrar nombre de usuario -->
+
+        <!-- ingresar teléfono -->
+        <div>
+          <label for="telefono">Teléfono</label>
+       <!--  <i class="fas fa-lock"></i> -->
+          <input type="password" name="telefono" id="telefono" placeholder="Teléfono" />
+        </div> <!-- fin contenedor contraseña -->
+
+        <!-- ingresar email -->
+        <div>
+          <label for="email">Correo institucional</label>
+     <!--   <i class="far fa-envelope"></i> -->
+          <input type="email" name="email" id="email" placeholder="abc@gmail.com" />
+        </div> <!-- fin contenedor para registrar email -->
+        
+
+        <!-- botón enviar información -->
+        <button type="submit" id="submit"><a class="boton" href="validacionFormulario.html">Enviar</button></a>
+
+      </form>
+     </div> <!-- fin div principal -->
+
+
+   <div class ="separador1"></div>
+   
+   <footer>
+        <p>ITESM. CSC. Eugenio Garza Sada 2501. Col. Tecnológico Moterrey, N.L. México</p>
+    </footer>   
+  </body>
+</html>
